@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="MainForm" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="29" y="40" width="731" height="443"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="30b8d" class="javax.swing.JButton" binding="calculateButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-8333838"/>
+          <font name="Courier 10 Pitch" size="22" style="1"/>
+          <maximumSize width="99" height="30"/>
+          <preferredSize width="9" height="30"/>
+          <text value="Calculate"/>
+        </properties>
+      </component>
+      <component id="56927" class="javax.swing.JButton" binding="DeleteButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-915712"/>
+          <font name="Courier 10 Pitch" size="9" style="1"/>
+          <preferredSize width="82" height="30"/>
+          <text value="Delete"/>
+        </properties>
+      </component>
+      <component id="ac546" class="javax.swing.JButton" binding="addButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-11275713"/>
+          <font name="Courier 10 Pitch" size="22" style="1"/>
+          <preferredSize width="8" height="30"/>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="3192" class="javax.swing.JTable" binding="TableOfPoints">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="10.0"/>
+        </constraints>
+        <properties>
+          <autoCreateRowSorter value="false"/>
+          <background color="-863692"/>
+          <columnSelectionAllowed value="true"/>
+          <fillsViewportHeight value="true"/>
+          <focusable value="true"/>
+          <font name="AnjaliOldLipi" size="22" style="1"/>
+          <gridColor color="-566157"/>
+          <minimumSize width="50" height="50"/>
+          <rowHeight value="30"/>
+          <selectionBackground color="-6431"/>
+          <selectionForeground color="-566157"/>
+          <surrendersFocusOnKeystroke value="true"/>
+          <toolTipText value="Latitude(0;180),Longitude(-90;90)"/>
+        </properties>
+        <clientProperties>
+          <JTable.autoStartsEdit class="java.lang.Boolean" value="false"/>
+          <html.disable class="java.lang.Boolean" value="false"/>
+          <terminateEditOnFocusLost class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="300b3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-861402"/>
+          <font name="Courier 10 Pitch" size="26" style="3"/>
+          <foreground color="-10215898"/>
+          <text value="Name     Latitude     Longitude"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
